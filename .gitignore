@@ -1,0 +1,8 @@
+# kişisel veriler: veritabanı, yedekler, anahtarlar asla yüklenmez
+data/
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.pem
+.env

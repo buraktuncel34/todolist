@@ -1,0 +1,17 @@
+[Unit]
+Description=Gunluk (todo PWA)
+After=network-online.target
+
+[Service]
+# KULLANICI ve klasör yolunu kendine göre değiştir
+User=KULLANICI
+WorkingDirectory=/home/KULLANICI/gunluk
+# sitenin dışarıdan açıldığı adres ve yöneticinin (senin) e-postan
+Environment=PUBLIC_URL=https://gunluk.ornek.com
+Environment=OWNER_EMAIL=sen@ornek.com
+ExecStart=/home/KULLANICI/gunluk/.venv/bin/python run.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
