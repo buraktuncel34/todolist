@@ -10,8 +10,8 @@ Telefona, bilgisayara ve Chrome'a kurulabilen yapılacaklar uygulaması: **Gün�
 
 ## Bilgisayarında hızlı deneme
 ```bash
-git clone https://github.com/KULLANICI/gunluk.git
-cd gunluk
+git clone https://github.com/buraktuncel34/todolist.git
+cd todolist
 python -m venv .venv
 # Windows: .venv\Scripts\activate    Mac/Linux: source .venv/bin/activate
 pip install -r requirements.txt
